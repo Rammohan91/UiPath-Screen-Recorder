@@ -29,6 +29,8 @@ namespace Screen_Recorder
 
         public static VideoFileWriter vf;
     
+
+        //This is a constructor class for the custom activity. It will be executed everytime custom activity is loaded.
         public Recording_Scope()
         {
             Console.WriteLine("Recording Started...");
